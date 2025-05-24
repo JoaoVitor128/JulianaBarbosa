@@ -54,7 +54,7 @@ function App() {
         </section >
       </div>
       <footer>
-        <p>Juliana Barbosa Nails | © Todos os Direitos Reserados</p>
+        <p>Juliana Barbosa Nails | © Todos os Direitos Reservados</p>
       </footer>
     </div >
   )
