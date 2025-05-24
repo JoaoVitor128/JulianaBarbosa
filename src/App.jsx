@@ -49,7 +49,7 @@ function App() {
         </section>
         <section className='contact'>
           <div className="divTitle"><h1 className="disTitle">Contato</h1></div>
-          <a href="https://bit.ly/4mu6WnB" target='_blank'><button>Whatsapp <i class="fa-brands fa-whatsapp"></i></button></a>
+          <a href="https://bit.ly/3SOcXOe" target='_blank'><button>Whatsapp <i class="fa-brands fa-whatsapp"></i></button></a>
           <a href="https://instagram.com/julianabarbosanails_" target='_blank'><button>Instagram <i class="fa-brands fa-instagram"></i></button></a>
         </section >
       </div>
