@@ -26,12 +26,12 @@ function App() {
   ]
 
   return (
-    <div className='App'>
+    <div className='App' translate="no" class="notranslate">
       <div className="principal">
         <header>
           <h1 className='title'>Juliana Barbosa Nails</h1>
           <img src={perfil} alt="Perfil" className='perfil' />
-          
+
         </header>
         <section className='prices'>
           <div className="divTitle"><h1>Tabela de Preços</h1></div>
