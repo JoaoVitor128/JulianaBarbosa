@@ -40,7 +40,7 @@ function App() {
           <GroupComponent title="extras" group={group03} />
 
           <p className='cardAlert'>Passo Cartão Com Acréssimo Da Máquina</p>
-          <p className='cardAlert'>Atendimento com hora marcada</p>
+          <p className='cardAlert'>Atendimento Com Hora Marcada</p>
 
         </section>
         <section>
