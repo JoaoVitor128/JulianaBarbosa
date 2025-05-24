@@ -9,9 +9,9 @@ import GroupComponent from './Component/GroupComponent'
 function App() {
 
   const group01 = [
-    { name: "Fibra/Tips/Gel", price: 120},
+    { name: "Alongamento de fibra/tips/gel", price: 120},
     { name: "Blindagem", price: 70},
-    { name: "Blindagem/Desc./Esmaltação", price: 80},
+    { name: "Blindagem/Dec./Esmaltação", price: 80},
     { name: "Banho de Gel", price: 90},
   ]
 
@@ -29,16 +29,18 @@ function App() {
     <div className='App' translate="no" class="notranslate">
       <div className="principal">
         <header>
-          <h1 className='title'>Juliana Barbosa Nails</h1>
+          <h1 className='title'>Juliana Barbosa</h1>
           <img src={perfil} alt="Perfil" className='perfil' />
 
         </header>
         <section className='prices'>
-          <div className="divTitle"><h1>Tabela de Preços</h1></div>
 
-          <GroupComponent title="Alongamento de Unha" group={group01} />
+          <GroupComponent title="Valores" group={group01} />
           <GroupComponent title="Manutenção" group={group02} />
           <GroupComponent title="extras" group={group03} />
+
+          <p className='cardAlert'>Passo Cartão Com Acréssimo Da Máquina</p>
+          <p className='cardAlert'>Atendimento com hora marcada</p>
 
         </section>
         <section>
