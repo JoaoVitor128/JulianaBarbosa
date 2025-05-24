@@ -2,7 +2,7 @@ import React from 'react'
 
 const GroupComponent = ({title, group,}) => {
     return (
-    <div>
+    <div className='group'>
         <h2 className='productsTitle'>{title}</h2>
         <ul className='product'>
           {group.map((product) => (

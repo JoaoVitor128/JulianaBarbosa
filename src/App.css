@@ -177,8 +177,6 @@ footer {
   justify-content: center;
 }
 
-/* MEDIA QUERIES - Responsividade */
-
 @media (max-width: 768px) {
   .principal {
     padding: 0 5%;
@@ -246,5 +244,17 @@ footer {
   button {
     font-size: 14px;
     letter-spacing: 1px;
+  }
+}
+
+@media(width <= 442px){
+  li p, li span{
+    font-size: 14px;
+  }
+}
+
+@media (width <= 388px){
+  li p{
+    text-transform: none;
   }
 }

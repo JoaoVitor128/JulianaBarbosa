@@ -9,10 +9,10 @@ import GroupComponent from './Component/GroupComponent'
 function App() {
 
   const group01 = [
-    { name: "Fibra/Tips/Gel", price: 120, className: "dest" },
-    { name: "Blindagem", price: 70, className: "" },
-    { name: "Blindagem/Desc./Esmaltação", price: 80, className: "" },
-    { name: "Banho de Gel", price: 90, className: "" },
+    { name: "Fibra/Tips/Gel", price: 120},
+    { name: "Blindagem", price: 70},
+    { name: "Blindagem/Desc./Esmaltação", price: 80},
+    { name: "Banho de Gel", price: 90},
   ]
 
   const group02 = [
@@ -31,11 +31,10 @@ function App() {
         <header>
           <h1 className='title'>Juliana Barbosa Nails</h1>
           <img src={perfil} alt="Perfil" className='perfil' />
-          <a href="https://instagram.com/julianabarbosanails_" target='_blank'><i class="fa-brands fa-instagram"></i></a>
-
+          
         </header>
         <section className='prices'>
-          <div className="divTitle"><h1>Meus Valores</h1></div>
+          <div className="divTitle"><h1>Tabela de Preços</h1></div>
 
           <GroupComponent title="Alongamento de Unha" group={group01} />
           <GroupComponent title="Manutenção" group={group02} />
